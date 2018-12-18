@@ -2,60 +2,34 @@
 # Introduction
 
 ## Introduction
-This lesson summarizes the topics we'll be covering in section 28 and why they'll be important to you as a data scientist.
+This lesson summarizes the topics we'll be covering in section 35 and why they'll be important to you as a data scientist.
 
 ## Objectives
 You will be able to:
 * Understand and explain what is covered in this section
 * Understand and explain why the section will help you to become a data scientist
 
-## Graph Theory
+## Clustering
 
-And now for something completely different! There are certain classes of data science problems where building and then traversing a graph can be a very powerful way to solve them. Not just for analysing social networks, but for anomaly detection, recommendation systems and geospacial data (e.g. calculating shipping routes) graph based approaches can be a really useful tool. In this section, we're going to provide an introduction to graphs that you can use as a starting point if you want to use such techniques in the future.
+In this section we will be moving on to a second unsupervised learning technique: Clustering! Clustering techniques are very powerful when you want to group data with similar characteristics together, but have no pre-specified labels. The main goal of clustering is to create clusters that have a high similarity between the data belonging to one cluster, while aiming at in a low similarity between clusters.  
 
-### Introduction to Graph Theory
+### K-Means Clustering
 
-We start by providing a basic introduction to what a graph is - a series of nodes (sometimes called vertices or points) and edges (sometimes called arcs or lines). We also introduce some important properties of graphs such as directionality (I know of ex-President Obama, but he may not have heard of me!) and weight (anything from the strength of a friendship to the time it takes to drive between two cities).
+We start by providing a basic intuition of the K-Means Clustering algorithm. When using the K-Means clustering algorithm, the number of clusters which you want to obtain is specified upfront, and the algorithm aims at the most "optimal" cluster centers given that there are K clusters.
 
-### Graphs in Python with NetworkX
+### Hierarchical Agglomerative Clustering
 
-One of the most common packages for working with graphs in Python is NetworkX. In this lesson, we look at how to create and visualize graphs using NetworkX.
+A second branch of clustering algorithms is hierarchical agglomerative clustering. Using hierarchical clustering, unlike K-Means clustering, you don't decide on the number of clusters beforehand. Instead, you start with $n$ clusters were $n$ is the number of datapoints, and at each step, join 2 clusters. You stop joining clusters when a certain criterion is used.
 
-### Graph Data I/O
+### Market Segmentation with Clustering
 
-From there, we look at two common representations for serializing graphs - edge lists and adjacency matrices so you can load graph data into NetworkX.
+A very common and useful application of clustering is market segmentation. You'll practice your clustering skills on a market segmentation data set! 
 
-### Implementing and Visualizing Graphs with NetworkX
+### Semi-Supervised Learning
 
-We then provide you with a lab to pull together all the steps you learned in the previous lessons to get some practice creating and visualizing graphs using NetworkX and Matplotlib.
-
-### Graph Theory: Simple and Shortest Paths
-
-The real power of Graphs as a way of modeling data is that there are a huge number of powerful algorithms for performing analyses on graphs. In this lesson we introduce the idea of the simple and shortest paths for undirected, directed and weighted graphs and introduce Djikstras algorithm for calculating the shortest path between two nodes.
-
-### Network Dynamics: Node Centrality
-
-Another way of modeling graph data is to try to identify network centrality (in a social graph, think of people who have a *lot* of friends). In this lesson we introduce a number of measures for analysing graph data including degree, closeness, betweenness and eigenvector centrality measures.
-
-### Network Dynamics: Bipartite Graphs
-
-A bipartite graph is one in which every edge connects from one set to the other but no edge connects two nodes within the same set. In this lesson we introduce bipartite graphs and explain how measures of centrality work for such graphs.
-
-### Network Connectivity: Community Detection
-
-Community detection allows us to look at subsets of the nodes and edges within a graph (subgraphs) to find communities (networks which are more densely interconnected) within a larger graph. In this section we look at various techniques such as the Girvan-Newman algorithm for detecting communities within graphs. 
-
-### Social Network Analysis: Ego Networks
-
-Next up we introduce the island method and the idea of ego networks for analysing social networks.
-
-### Amazon Recommendation System 
-
-Finally, we end up the section by asking you to create a book recommendation system using an Amazon co-purchase data set.
-
+At the end of this section, you'll learn how semi-supervised learning techniques, which are increasingly popular in machine learning, combines both concepts of supervised and unsupervised learning.
 
 
 ## Summary
 
-Once you know about graphs as a modeling technique, you'll start to see them everywhere. In this section we give you the tools to start to model data using a range of graph based algorithms.
-
+In this section, you'll learn how to use clustering techniques, which are very useful for finding patterns and grouping unlabeled data together.
