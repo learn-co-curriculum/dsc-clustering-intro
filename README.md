@@ -2,7 +2,7 @@
 # Introduction
 
 ## Introduction
-This lesson summarizes the topics we'll be covering in section 35 and why they'll be important to you as a data scientist.
+This lesson summarizes the topics we'll be covering in section 38 and why they'll be important to you as a data scientist.
 
 ## Objectives
 You will be able to:
@@ -19,7 +19,7 @@ We start by providing a basic intuition of the K-Means Clustering algorithm. Whe
 
 ### Hierarchical Agglomerative Clustering
 
-A second branch of clustering algorithms is hierarchical agglomerative clustering. Using hierarchical clustering, unlike K-Means clustering, you don't decide on the number of clusters beforehand. Instead, you start with $n$ clusters were $n$ is the number of datapoints, and at each step, join 2 clusters. You stop joining clusters when a certain criterion is used.
+A second branch of clustering algorithms is hierarchical agglomerative clustering. Using hierarchical clustering, unlike K-Means clustering, you don't decide on the number of clusters beforehand. Instead, you start with $n$ clusters were $n$ is the number of data points, and at each step, join 2 clusters. You stop joining clusters when a certain criterion is used.
 
 ### Market Segmentation with Clustering
 
@@ -33,3 +33,5 @@ At the end of this section, you'll learn how semi-supervised learning techniques
 ## Summary
 
 In this section, you'll learn how to use clustering techniques, which are very useful for finding patterns and grouping unlabeled data together.
+
+
