@@ -10,11 +10,11 @@ Clustering techniques are very powerful when you want to group data with similar
 
 ### K-Means Clustering
 
-We start by providing a basic intuition of the K-means clustering algorithm. When using the K-means clustering algorithm, the number of clusters that you want to obtain is specified upfront and the algorithm aims at the most "optimal" cluster centers, given that there are $K$ clusters.
+We start by providing a basic intuition of the K-means clustering algorithm. When using the K-means clustering algorithm, the number of clusters that you want to obtain is specified upfront and the algorithm aims at the most "optimal" cluster centers, given that there are *K* clusters.
 
 ### Hierarchical Agglomerative Clustering
 
-A second branch of clustering algorithms is hierarchical agglomerative clustering. Using hierarchical clustering, unlike K-means clustering, you don't decide on the number of clusters beforehand. Instead, you start with $n$ clusters, where $n$ is the number of data points, and at each step you join two clusters. You stop joining clusters when a certain criterion is reached.
+A second branch of clustering algorithms is hierarchical agglomerative clustering. Using hierarchical clustering, unlike K-means clustering, you don't decide on the number of clusters beforehand. Instead, you start with *n* clusters, where *n* is the number of data points, and at each step you join two clusters. You stop joining clusters when a certain criterion is reached.
 
 ### Semi-Supervised Learning
 
